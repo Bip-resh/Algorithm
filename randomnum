@@ -1,0 +1,8 @@
+import random 
+num=int(input("enter amount of random your want "))
+l=[]
+for i in range (1,num+1):
+    rn = random.randint(1,50)
+    l.append(rn)
+print("my list",l)
+ 
