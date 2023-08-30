@@ -1,0 +1,7 @@
+friends = {"Polash" : "talukder","bipresh" : "kumar","ovro" : "das"}
+ 
+name = input("enter a key here : ")
+if name in friends.keys():
+    print("it is present here ")
+else:
+     print("it is not present here")
