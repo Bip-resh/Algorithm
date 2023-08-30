@@ -1,0 +1,5 @@
+l= [45,65,56,76,98]
+
+for i in range(len(l)):
+    value=l[i]
+    print(i,'-',value)
